@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset("assets/Image.png"),
+            Image.asset("assets/images/Image.png"),
             const SizedBox(
               height: 30,
             ),

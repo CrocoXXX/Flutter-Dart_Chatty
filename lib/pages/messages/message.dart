@@ -14,14 +14,13 @@ class Message extends StatelessWidget {
       floatingActionButton: const InputChat(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       body: SafeArea(
-          child: SingleChildScrollView(
         child: Column(
           children: const [
             Header(),
             Body(),
           ],
         ),
-      )),
+      ),
     );
   }
 }
